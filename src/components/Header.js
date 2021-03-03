@@ -3,10 +3,15 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: none;
+
     margin: 0 auto;
+
+    @media (min-width: 576px) {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 `;
 
 const TitleWord = styled.h1`

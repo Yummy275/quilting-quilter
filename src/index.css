@@ -9,3 +9,8 @@ html {
     );
     font-family: 'Shippori Mincho', serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}

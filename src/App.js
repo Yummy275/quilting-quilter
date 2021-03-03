@@ -1,8 +1,15 @@
 import Header from './components/Header';
+import Navbar from './components/Navbar';
+
 import './App.css';
 
 function App() {
-    return <Header></Header>;
+    return (
+        <>
+            <Header></Header>
+            <Navbar></Navbar>
+        </>
+    );
 }
 
 export default App;
