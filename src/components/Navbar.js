@@ -40,7 +40,7 @@ const OptionsDiv = styled.div`
 
 const Navlink = styled.a`
     margin: 0 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 `;
 
 const LinkSeperator = styled.div`

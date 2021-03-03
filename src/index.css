@@ -14,3 +14,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
+@media (min-width: 768px) {
+    html,
+    body {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    html,
+    body {
+        font-size: 1.2rem;
+    }
+}
