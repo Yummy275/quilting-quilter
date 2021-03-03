@@ -27,6 +27,19 @@ const WhiteRec = styled.div`
     align-items: center;
     background-color: #ffffff78;
     backdrop-filter: blur(2px);
+    transition: background-color 0.3s ease-in;
+
+    @media (min-width: 768px) {
+        height: 8rem;
+    }
+
+    @media (min-width: 1200px) {
+        height: 10rem;
+    }
+
+    :hover {
+        background-color: #ffffffd4;
+    }
 `;
 
 const Button = styled.button`
@@ -34,8 +47,9 @@ const Button = styled.button`
     height: 1.75rem;
     margin-top: 0.5rem;
     background-color: transparent;
-    border: 1px solid black;
-    font-size: 0.75rem;
+    border: 0;
+    font-size: 0.85rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `;
 
 const HomeBillBoard = ({ bg, string }) => {
@@ -43,7 +57,7 @@ const HomeBillBoard = ({ bg, string }) => {
         <Container bg={bg}>
             <WhiteRec>
                 <h3 style={{ height: 'fit-content', margin: '0' }}>{string}</h3>
-                <Button>View More</Button>
+                <Button>View</Button>
             </WhiteRec>
         </Container>
     );
