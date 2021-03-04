@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Navbar from './components/Navbar';
+import HomeIntro from './components/HomeIntro';
 import HomeBillBoard from './components/HomeBillBoard';
 import img from './imgs/home-fabrics.jpg';
 import imgg from './imgs/home-notions.jpg';
@@ -11,6 +12,7 @@ function App() {
         <>
             <Header></Header>
             <Navbar></Navbar>
+            <HomeIntro></HomeIntro>
             <HomeBillBoard bg={img} string="Fabrics"></HomeBillBoard>
             <HomeBillBoard bg={imgg} string="Notions"></HomeBillBoard>
         </>
