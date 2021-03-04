@@ -9,6 +9,7 @@ const Title = styled.div`
     font-size: 2.75rem;
     font-weight: bold;
     background-image: url(${suppliesIntroImg});
+    background-attachment: fixed;
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;

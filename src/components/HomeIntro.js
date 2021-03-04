@@ -17,7 +17,10 @@ const Container = styled.div`
 const Headshot = styled.img`
     width: 100%;
     max-width: 20rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-bottom: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 `;
 
 const Words = styled.div`
