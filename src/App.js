@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-import HomeServices from './components/HomeServices';
+import HomePage from './pages/HomePage';
 
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
         <>
             <Header></Header>
             <Navbar></Navbar>
-            <HomeServices></HomeServices>
+            <HomePage></HomePage>
         </>
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import StdButton from './StdButton';
 
 const Container = styled.div`
     width: 100%;
@@ -42,26 +43,12 @@ const WhiteRec = styled.div`
     }
 `;
 
-const Button = styled.button`
-    width: 4.5rem;
-    height: 1.75rem;
-    margin-top: 0.5rem;
-    background-color: transparent;
-    border: 0;
-    font-size: 0.85rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-    :hover {
-        cursor: pointer;
-    }
-`;
-
 const HomeBillBoard = ({ bg, string }) => {
     return (
         <Container bg={bg}>
             <WhiteRec>
                 <h3 style={{ height: 'fit-content', margin: '0' }}>{string}</h3>
-                <Button>View</Button>
+                <StdButton>View</StdButton>
             </WhiteRec>
         </Container>
     );

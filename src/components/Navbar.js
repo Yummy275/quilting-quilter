@@ -48,6 +48,11 @@ const OptionsDiv = styled.div`
 const Navlink = styled.a`
     margin: 0 0.5rem;
     font-size: 1.1rem;
+    transition: transform 0.3s ease-in;
+    :hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
 `;
 
 const LinkSeperator = styled.div`

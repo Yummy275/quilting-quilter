@@ -1,11 +1,15 @@
 import React from 'react';
 import ServiceCard from './ServiceCard';
-import homeLongArm from '../imgs/home-longarm.jpg';
-import homeRepair from '../imgs/home-repair.jpg';
-import homeAlt from '../imgs/home-alterations.jpg';
+import homeLongArmImg from '../imgs/home-longarm.jpg';
+import homeRepairImg from '../imgs/home-repair.jpg';
+import homeAltImg from '../imgs/home-alterations.jpg';
 import styled from 'styled-components';
+import StdButton from './StdButton';
 
-const Container = styled.div``;
+const Container = styled.div`
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+`;
 
 const CardsHolder = styled.div`
     display: flex;
@@ -16,20 +20,24 @@ const CardsHolder = styled.div`
 const HomeServices = () => {
     return (
         <Container>
+            <div style={{ textAlign: 'center' }}>
+                <h2 style={{ margin: '0 0 1rem 0' }}>Services</h2>
+                <StdButton>More Info</StdButton>
+            </div>
             <CardsHolder>
                 <ServiceCard
                     title="Long-Arm Quilting"
-                    image={homeLongArm}
+                    image={homeLongArmImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></ServiceCard>
                 <ServiceCard
                     title="Repairs"
-                    image={homeRepair}
+                    image={homeRepairImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></ServiceCard>
                 <ServiceCard
                     title="Alterations"
-                    image={homeAlt}
+                    image={homeAltImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></ServiceCard>
             </CardsHolder>

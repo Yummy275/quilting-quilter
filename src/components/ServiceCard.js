@@ -11,6 +11,7 @@ const CardTitle = styled.h3``;
 
 const CardImg = styled.img`
     width: 100%;
+    border-radius: 5px;
 `;
 
 const CardBody = styled.p``;
