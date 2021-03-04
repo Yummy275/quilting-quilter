@@ -15,13 +15,14 @@ const CardsHolder = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 1rem;
 `;
 
 const HomeServices = () => {
     return (
         <Container>
             <div style={{ textAlign: 'center' }}>
-                <h2 style={{ margin: '0 0 1rem 0' }}>Services</h2>
+                <h2 style={{ margin: '0 0 .25rem' }}>Services</h2>
                 <StdButton>More Info</StdButton>
             </div>
             <CardsHolder>
