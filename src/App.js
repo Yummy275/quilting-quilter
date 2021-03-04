@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
+import SuppliesPage from './pages/SuppliesPage';
+import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 
 import './App.css';
@@ -14,6 +16,8 @@ function App() {
         viewingPage = <HomePage></HomePage>;
     } else if (currentPage === 'contact') {
         viewingPage = <ContactPage></ContactPage>;
+    } else if (currentPage === 'supplies') {
+        viewingPage = <SuppliesPage></SuppliesPage>;
     }
 
     return (
