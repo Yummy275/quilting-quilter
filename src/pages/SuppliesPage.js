@@ -5,14 +5,25 @@ import img from '../imgs/product-example.jpg';
 import SuppliesTypeWrapper from '../components/SuppliesTypeWrapper';
 import styled from 'styled-components';
 
-const Container = styled.div``;
+const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`;
 
 const Menu = styled.div`
     display: flex;
 `;
 
 const CatBox = styled.div`
+    display: flex;
+    flex-direction: column;
     margin-left: 0.75rem;
+`;
+
+const CatOption = styled.a`
+    padding-top: 1.75rem;
+    margin: 0.25rem 0;
 `;
 
 const SuppliesPage = () => {
@@ -21,9 +32,9 @@ const SuppliesPage = () => {
             <SuppliesIntro></SuppliesIntro>
             <Menu>
                 <CatBox>
-                    <p>Fabrics</p>
-                    <p>Notions</p>
-                    <p>Others</p>
+                    <CatOption>Fabrics</CatOption>
+                    <CatOption>Notions</CatOption>
+                    <CatOption>Others</CatOption>
                 </CatBox>
                 <SuppliesTypeWrapper>
                     <ProductCard
