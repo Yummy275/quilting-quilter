@@ -27,6 +27,13 @@ const SmIcon = styled.img`
     }
 `;
 
+const Title = styled.h2`
+    margin: 0;
+    @media (max-width: 352px) {
+        font-size: 1.3rem;
+    }
+`;
+
 const OptionsDiv = styled.div`
     height: 100%;
     width: 100%;
@@ -54,7 +61,7 @@ const Navbar = () => {
         <Container>
             <SmNavDiv>
                 <SmIcon src={navSmIcon}></SmIcon>
-                <h3 style={{ margin: '0' }}>The Quilting Quilter</h3>
+                <Title style={{ margin: '0' }}>The Quilting Quilter</Title>
             </SmNavDiv>
             <OptionsDiv>
                 <Navlink>Home</Navlink>
