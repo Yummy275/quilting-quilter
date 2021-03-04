@@ -18,6 +18,8 @@ function App() {
         viewingPage = <ContactPage></ContactPage>;
     } else if (currentPage === 'supplies') {
         viewingPage = <SuppliesPage></SuppliesPage>;
+    } else if (currentPage === 'services') {
+        viewingPage = <ServicesPage></ServicesPage>;
     }
 
     return (
