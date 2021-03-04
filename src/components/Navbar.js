@@ -61,7 +61,7 @@ const LinkSeperator = styled.div`
     background-color: #464646;
 `;
 
-const Navbar = () => {
+const Navbar = ({ setCurrentPage }) => {
     return (
         <Container>
             <SmNavDiv>
@@ -69,15 +69,21 @@ const Navbar = () => {
                 <Title style={{ margin: '0' }}>The Quilting Quilter</Title>
             </SmNavDiv>
             <OptionsDiv>
-                <Navlink>Home</Navlink>
+                <Navlink onClick={() => setCurrentPage('home')}>Home</Navlink>
                 <LinkSeperator></LinkSeperator>
-                <Navlink>About</Navlink>
+                <Navlink onClick={() => setCurrentPage('about')}>About</Navlink>
                 <LinkSeperator></LinkSeperator>
-                <Navlink>Supplies</Navlink>
+                <Navlink onClick={() => setCurrentPage('supplies')}>
+                    Supplies
+                </Navlink>
                 <LinkSeperator></LinkSeperator>
-                <Navlink>Services</Navlink>
+                <Navlink onClick={() => setCurrentPage('services')}>
+                    Services
+                </Navlink>
                 <LinkSeperator></LinkSeperator>
-                <Navlink>Contact</Navlink>
+                <Navlink onClick={() => setCurrentPage('contact')}>
+                    Contact
+                </Navlink>
             </OptionsDiv>
         </Container>
     );
