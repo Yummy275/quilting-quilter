@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
 
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
         <>
             <Header></Header>
             <Navbar></Navbar>
-            <HomePage></HomePage>
+            <ContactPage></ContactPage>
         </>
     );
 }
