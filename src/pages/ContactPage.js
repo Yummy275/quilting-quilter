@@ -6,6 +6,7 @@ const Container = styled.div`
     height: 18rem;
     display: flex;
     align-items: center;
+    margin-top: 2rem;
     background-image: url(${contactBg});
     background-size: cover;
     text-align: center;
