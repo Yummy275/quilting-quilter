@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Title = styled.div`
     max-width: 22rem;
-    margin: 0 auto;
+    margin: 1rem auto 0 auto;
     text-align: center;
     font-size: 2.75rem;
     font-weight: bold;
