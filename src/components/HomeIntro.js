@@ -24,8 +24,10 @@ const Headshot = styled.img`
 `;
 
 const Words = styled.div`
+    margin-top: 0.5rem;
     @media (min-width: 780px) {
         max-width: 24rem;
+        margin-top: 0;
         margin-left: 0.5rem;
     }
 `;

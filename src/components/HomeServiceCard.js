@@ -18,7 +18,7 @@ const CardImg = styled.img`
 
 const CardBody = styled.p``;
 
-const ServiceCard = ({ title, image, body }) => {
+const HomeServiceCard = ({ title, image, body }) => {
     return (
         <Container>
             <CardTitle>{title}</CardTitle>
@@ -28,4 +28,4 @@ const ServiceCard = ({ title, image, body }) => {
     );
 };
 
-export default ServiceCard;
+export default HomeServiceCard;

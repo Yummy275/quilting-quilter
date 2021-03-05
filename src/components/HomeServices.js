@@ -1,5 +1,5 @@
 import React from 'react';
-import ServiceCard from './ServiceCard';
+import HomeServiceCard from './HomeServiceCard';
 import homeLongArmImg from '../imgs/home-longarm.jpg';
 import homeRepairImg from '../imgs/home-repair.jpg';
 import homeAltImg from '../imgs/home-alterations.jpg';
@@ -26,21 +26,21 @@ const HomeServices = () => {
                 <StdButton>More Info</StdButton>
             </div>
             <CardsHolder>
-                <ServiceCard
+                <HomeServiceCard
                     title="Long-Arm Quilting"
                     image={homeLongArmImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
-                ></ServiceCard>
-                <ServiceCard
+                ></HomeServiceCard>
+                <HomeServiceCard
                     title="Repairs"
                     image={homeRepairImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
-                ></ServiceCard>
-                <ServiceCard
+                ></HomeServiceCard>
+                <HomeServiceCard
                     title="Alterations"
                     image={homeAltImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
-                ></ServiceCard>
+                ></HomeServiceCard>
             </CardsHolder>
         </Container>
     );

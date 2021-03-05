@@ -1,10 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div``;
+import ServicesIntro from '../components/ServicesIntro';
+import ServicesOptions from '../components/ServicesOptions';
 
 const ServicesPage = () => {
-    return <Container></Container>;
+    return (
+        <>
+            <ServicesIntro></ServicesIntro>
+            <ServicesOptions></ServicesOptions>
+        </>
+    );
 };
 
 export default ServicesPage;
