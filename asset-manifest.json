@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/quilting-quilter/static/css/main.c8553167.chunk.css",
+    "main.js": "/quilting-quilter/static/js/main.a9714471.chunk.js",
+    "main.js.map": "/quilting-quilter/static/js/main.a9714471.chunk.js.map",
+    "runtime-main.js": "/quilting-quilter/static/js/runtime-main.ac862d65.js",
+    "runtime-main.js.map": "/quilting-quilter/static/js/runtime-main.ac862d65.js.map",
+    "static/js/2.f914c550.chunk.js": "/quilting-quilter/static/js/2.f914c550.chunk.js",
+    "static/js/2.f914c550.chunk.js.map": "/quilting-quilter/static/js/2.f914c550.chunk.js.map",
+    "index.html": "/quilting-quilter/index.html",
+    "static/css/main.c8553167.chunk.css.map": "/quilting-quilter/static/css/main.c8553167.chunk.css.map",
+    "static/js/2.f914c550.chunk.js.LICENSE.txt": "/quilting-quilter/static/js/2.f914c550.chunk.js.LICENSE.txt",
+    "static/media/contact.8ed5c231.jpg": "/quilting-quilter/static/media/contact.8ed5c231.jpg",
+    "static/media/home-alterations.b1ab5a58.jpg": "/quilting-quilter/static/media/home-alterations.b1ab5a58.jpg",
+    "static/media/home-fabrics.f55dac9a.jpg": "/quilting-quilter/static/media/home-fabrics.f55dac9a.jpg",
+    "static/media/home-headshot.efca15fe.jpg": "/quilting-quilter/static/media/home-headshot.efca15fe.jpg",
+    "static/media/home-longarm.d4b9fef5.jpg": "/quilting-quilter/static/media/home-longarm.d4b9fef5.jpg",
+    "static/media/home-notions.8749515a.jpg": "/quilting-quilter/static/media/home-notions.8749515a.jpg",
+    "static/media/home-repair.3dc98da5.jpg": "/quilting-quilter/static/media/home-repair.3dc98da5.jpg",
+    "static/media/nav-ham-icon.976b5194.png": "/quilting-quilter/static/media/nav-ham-icon.976b5194.png",
+    "static/media/product-example.f4882eec.jpg": "/quilting-quilter/static/media/product-example.f4882eec.jpg",
+    "static/media/services-repair.1e53b837.jpg": "/quilting-quilter/static/media/services-repair.1e53b837.jpg",
+    "static/media/servies-longarm.ebd69272.jpg": "/quilting-quilter/static/media/servies-longarm.ebd69272.jpg",
+    "static/media/supplies-intro.d774e7fa.jpg": "/quilting-quilter/static/media/supplies-intro.d774e7fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac862d65.js",
+    "static/js/2.f914c550.chunk.js",
+    "static/css/main.c8553167.chunk.css",
+    "static/js/main.a9714471.chunk.js"
+  ]
+}
