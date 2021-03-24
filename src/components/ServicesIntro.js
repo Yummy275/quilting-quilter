@@ -14,7 +14,7 @@ const Title = styled.div`
 const IntroInfo = styled.div`
     width: 98%;
     margin: 0 auto;
-    max-width: 24rem;
+    max-width: 40rem;
 `;
 
 const ServicesIntro = () => {
