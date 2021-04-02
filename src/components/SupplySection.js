@@ -2,13 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SupplyTitle = styled.div`
-    margin: 0 0 0 1rem;
     text-align: center;
 `;
 
 const CardsHolder = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 `;
 
 const SupplySec = ({ secTitle, content }) => {

@@ -12,16 +12,18 @@ import fabricEle from './imgs/fabric swatches/30150-422 Yam.jpg';
 import fabricTwelve from './imgs/fabric swatches/30150-508 Berry.jpg';
 
 export default {
-    fabricOne,
-    fabricTwo,
-    fabricThr,
-    fabricFour,
-    fabricFive,
-    fabricSix,
-    fabricSev,
-    fabricEight,
-    fabricNine,
-    fabricTen,
-    fabricEle,
-    fabricTwelve,
+    byTheYard: {
+        fabricOne,
+        fabricTwo,
+        fabricThr,
+        fabricFour,
+        fabricFive,
+        fabricSix,
+        fabricSev,
+        fabricEight,
+        fabricNine,
+        fabricTen,
+        fabricEle,
+        fabricTwelve,
+    },
 };

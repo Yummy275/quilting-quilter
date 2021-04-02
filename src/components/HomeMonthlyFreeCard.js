@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import productImages from '../productImages';
+import fabricProducts from '../fabricProducts';
 
 const Container = styled.div`
     text-align: center;
@@ -51,9 +51,9 @@ const HomeMonthlyFreeCard = () => {
             <h3>Monthly Free Fabrics</h3>
             <Window>
                 <ImagesHolder ref={imagesHolder}>
-                    <CardImg src={productImages.fabricOne}></CardImg>
-                    <CardImg src={productImages.fabricTwo}></CardImg>
-                    <CardImg src={productImages.fabricThr}></CardImg>
+                    <CardImg src={fabricProducts.byTheYard.fabricOne}></CardImg>
+                    <CardImg src={fabricProducts.byTheYard.fabricTwo}></CardImg>
+                    <CardImg src={fabricProducts.byTheYard.fabricThr}></CardImg>
                 </ImagesHolder>
             </Window>
             <p>Sunt anim excepteur cupidatat enim sunt dolore.</p>
