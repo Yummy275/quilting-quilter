@@ -14,6 +14,15 @@ const Title = styled.div`
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    -webkit-text-stroke: 1px #00000054;
+
+    @media (min-width: 640px) {
+        font-size: 3.75rem;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 4.75rem;
+    }
 `;
 
 const SuppliesIntro = () => {

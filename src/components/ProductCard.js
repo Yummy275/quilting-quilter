@@ -20,13 +20,14 @@ const CardImg = styled.img`
 
 const CardPrice = styled.p`
     margin: 0 0 1rem 0;
+    font-size: 0.85rem;
 `;
 
 const ProductCard = ({ title, image, price }) => {
     return (
         <Container>
             <CardTitle>{title}</CardTitle>
-            <CardPrice>{price}</CardPrice>
+            <CardPrice>$5.99</CardPrice>
             <CardImg src={image}></CardImg>
         </Container>
     );

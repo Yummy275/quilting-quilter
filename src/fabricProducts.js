@@ -10,6 +10,8 @@ import fabricNine from './imgs/fabric swatches/30150-346 Wren.jpg';
 import fabricTen from './imgs/fabric swatches/30150-353 Peacoat.jpg';
 import fabricEle from './imgs/fabric swatches/30150-422 Yam.jpg';
 import fabricTwelve from './imgs/fabric swatches/30150-508 Berry.jpg';
+import bsLaneOne from './imgs/fabric swatches/55215 11 Red & white Striped.jpg';
+import bsLaneTwo from './imgs/fabric swatches/55215 17 Blue & White Striped.jpg';
 
 export default {
     byTheYard: {
@@ -25,5 +27,9 @@ export default {
         fabricTen,
         fabricEle,
         fabricTwelve,
+    },
+    bitterSweetLane: {
+        bsLaneOne,
+        bsLaneTwo,
     },
 };
