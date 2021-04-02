@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-`;
+const Wrapper = styled.div``;
 
 export default Wrapper;
