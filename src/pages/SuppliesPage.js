@@ -16,6 +16,9 @@ const Menu = styled.div`
 `;
 
 const CatBox = styled.div`
+    height: fit-content;
+    position: sticky;
+    top: 0px;
     display: flex;
     flex-direction: column;
     margin-left: 0.75rem;
@@ -40,49 +43,41 @@ const SuppliesPage = () => {
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                     <ProductCard
                         title="Blue Swirls"
                         image={img}
-                        body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec sapien a ligula tincidunt lobortis."
                         price="$5.99"
                     ></ProductCard>
                 </SuppliesTypeWrapper>

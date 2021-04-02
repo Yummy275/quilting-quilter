@@ -5,6 +5,7 @@ const Container = styled.div`
     text-align: center;
     max-width: 11.5rem;
     padding: 0.5rem;
+    margin: 0 2rem;
 `;
 
 const CardTitle = styled.h3`
@@ -26,13 +27,12 @@ const CardBody = styled.p`
     margin-top: 0.5rem;
 `;
 
-const ProductCard = ({ title, image, body, price }) => {
+const ProductCard = ({ title, image, price }) => {
     return (
         <Container>
             <CardTitle>{title}</CardTitle>
             <CardPrice>{price}</CardPrice>
             <CardImg src={image}></CardImg>
-            <CardBody>{body}</CardBody>
         </Container>
     );
 };
