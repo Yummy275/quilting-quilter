@@ -31,7 +31,8 @@ const HomeMonthlyFreeCard = () => {
     const imagesHolder = useRef();
 
     useEffect(() => {
-        let translateDistance = 0;
+        let translateDistance = 1;
+
         const mover = setInterval(() => {
             if (translateDistance === 3) {
                 translateDistance = 0;
@@ -55,6 +56,7 @@ const HomeMonthlyFreeCard = () => {
                     <CardImg src={productImages.fabricThr}></CardImg>
                 </ImagesHolder>
             </Window>
+            <p>Sunt anim excepteur cupidatat enim sunt dolore.</p>
         </Container>
     );
 };

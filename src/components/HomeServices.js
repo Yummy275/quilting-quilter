@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeServiceCard from './HomeServiceCard';
+import HomeMonthlyFreeCard from './HomeMonthlyFreeCard';
 import homeLongArmImg from '../imgs/home-longarm.jpg';
-import homeRepairImg from '../imgs/home-repair.jpg';
 import homeAltImg from '../imgs/home-alterations.jpg';
 import styled from 'styled-components';
 import StdButton from './StdButton';
@@ -27,11 +27,7 @@ const HomeServices = () => {
                     image={homeLongArmImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></HomeServiceCard>
-                <HomeServiceCard
-                    title="Monthly Free Fabrics"
-                    image={homeRepairImg}
-                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
-                ></HomeServiceCard>
+                <HomeMonthlyFreeCard></HomeMonthlyFreeCard>
                 <HomeServiceCard
                     title="Quilting Supplies"
                     image={homeAltImg}
