@@ -21,10 +21,6 @@ const CardsHolder = styled.div`
 const HomeServices = () => {
     return (
         <Container>
-            <div style={{ textAlign: 'center' }}>
-                <h2 style={{ margin: '0 0 .25rem' }}>Services</h2>
-                <StdButton>More Info</StdButton>
-            </div>
             <CardsHolder>
                 <HomeServiceCard
                     title="Long-Arm Quilting"
@@ -32,12 +28,12 @@ const HomeServices = () => {
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></HomeServiceCard>
                 <HomeServiceCard
-                    title="Repairs"
+                    title="Monthly Free Fabrics"
                     image={homeRepairImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></HomeServiceCard>
                 <HomeServiceCard
-                    title="Alterations"
+                    title="Quilting Supplies"
                     image={homeAltImg}
                     body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed tortor nec dui cursus molestie non vel nibh."
                 ></HomeServiceCard>
