@@ -1,5 +1,6 @@
 import React from 'react';
 import SuppliesIntro from '../components/SuppliesIntro';
+import SuppliesNavMenu from '../components/SuppliesNavMenu';
 import SuppliesTypeWrapper from '../components/SuppliesTypeWrapper';
 import SuppliesGrungeFabrics from '../components/SuppliesGrungeFabrics';
 import styled from 'styled-components';
@@ -15,35 +16,12 @@ const StoreFront = styled.div`
     margin-top: 2rem;
 `;
 
-const Menu = styled.div`
-    display: flex;
-`;
-
-const CatBox = styled.div`
-    height: fit-content;
-    position: sticky;
-    top: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0.75rem;
-`;
-
-const CatOption = styled.a`
-    margin-bottom: 0.5rem;
-`;
-
 const SuppliesPage = () => {
     return (
         <Container>
             <SuppliesIntro></SuppliesIntro>
             <StoreFront>
-                <Menu>
-                    <CatBox>
-                        <CatOption>Fabrics</CatOption>
-                        <CatOption>Notions</CatOption>
-                        <CatOption>Others</CatOption>
-                    </CatBox>
-                </Menu>
+                <SuppliesNavMenu></SuppliesNavMenu>
                 <SuppliesTypeWrapper>
                     <SuppliesGrungeFabrics></SuppliesGrungeFabrics>
                 </SuppliesTypeWrapper>
