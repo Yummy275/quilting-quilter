@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/quilting-quilter/static/css/main.68b6d7cb.chunk.css",
-    "main.js": "/quilting-quilter/static/js/main.88ef5db2.chunk.js",
-    "main.js.map": "/quilting-quilter/static/js/main.88ef5db2.chunk.js.map",
+    "main.js": "/quilting-quilter/static/js/main.7a079657.chunk.js",
+    "main.js.map": "/quilting-quilter/static/js/main.7a079657.chunk.js.map",
     "runtime-main.js": "/quilting-quilter/static/js/runtime-main.ac862d65.js",
     "runtime-main.js.map": "/quilting-quilter/static/js/runtime-main.ac862d65.js.map",
     "static/js/2.f914c550.chunk.js": "/quilting-quilter/static/js/2.f914c550.chunk.js",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.ac862d65.js",
     "static/js/2.f914c550.chunk.js",
     "static/css/main.68b6d7cb.chunk.css",
-    "static/js/main.88ef5db2.chunk.js"
+    "static/js/main.7a079657.chunk.js"
   ]
 }
